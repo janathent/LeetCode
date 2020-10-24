@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        StringBuffer stringBuffer = new StringBuffer("123");
-        stringBuffer.replace(2,3,"00");
-        System.out.println(stringBuffer);
+        StringBuilder str = new StringBuilder("11212125154");
+        str.replace(0,1,"hahha");
+        System.out.println(str);
     }
     
 }
